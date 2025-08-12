@@ -28,6 +28,8 @@ function Track (props) {
           <h3>{props.track.name}</h3>
           {/* <p><!-- track artist will go here--> | <!-- track album will go here --></p> */}
           <p>{props.track.artist} | {props.track.album}</p>
+          {props.track.albumImage && <img src={props.track.albumImage} alt={props.track.album}/>}
+          
         </div>
         {/* <button class="Track-action"><!-- + or - will go here --></button> */}
         {renderAction()}

@@ -35,3 +35,16 @@
     font-weight: 300;
     color: rgba(256, 256, 256, 0.8);
 }
+
+.Track-information img {
+  height: 100px ;
+  width: 100px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px){
+    .Track-information img {
+        display: block;
+        align-self: center;
+    }
+}
+

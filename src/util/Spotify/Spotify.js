@@ -77,6 +77,7 @@ async search(term){
             artist: t.artists[0].name,
             album: t.album.name,
             uri: t.uri,
+            albumImage: t.album.images[0]?.url
      } ));
     });
    },
