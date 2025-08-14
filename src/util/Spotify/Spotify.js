@@ -1,6 +1,6 @@
 let accessToken;
 const clientID = "33f3571bade14ddc82fa6182e542ffdd";
-const redirectURL = "http://[::1]:5173/callback";
+const redirectURL = "https://awesomejammming.netlify.app/";
 const scope = "playlist-modify-public";
 
 function generateCodeVerifier(length = 128) {
